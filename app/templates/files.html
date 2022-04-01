@@ -1,0 +1,14 @@
+  
+
+{% extends 'base.html' %}
+
+{% block main %}
+
+{{image_names}}
+
+{% for image_name in image_names %}   
+    <img src="{{ url_for ('get_image', filename=image_name)}}"/>
+    {{image_name}}
+{% endfor %}
+ 
+{% endblock %}

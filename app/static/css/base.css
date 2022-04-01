@@ -1,0 +1,47 @@
+body{
+    background-color: #290D33;
+    color: #FFFFFF;
+}
+
+form {
+    background-color: #E5E5E5;
+    color: #000000;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+}
+
+form > button {
+    background-color: #5DA6E9;
+    color: #FFFFFF;
+    padding: 15px 15px;
+    cursor: pointer;
+    border: none;
+}
+/*
+img[src="static/css/LOGO.jpg"]{
+    height: 100px;
+    width: 150px;
+    border-radius: 10%;
+}
+
+img[src="static/css/wrist_xray.png"]{
+    height: 500px;
+    width: 200px;
+}
+
+.image-row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+.image-column {
+    flex: 50%;
+    padding: 0 4px;
+  }
+
+.image-column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+*/

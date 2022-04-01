@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block main %}
+<form class="form-login" method="post">
+  <h2>Please sign in</h2>
+  {% if error %}
+    <div class="alert alert-danger">
+      <strong>Error:</strong> {{ error }}
+    </div>
+  {% endif %}
+  <div class="form-group">
+    <label for="username"> Medical ID:</label><br>
+    <input type="text" id="username" name="username" class="form-control" required><br>
+  </div>
+  <div class="form-group">
+    <label for="password">Password: </label><br>
+    <input type="password" id="password" name="password" class="form-control" required><br>
+  </div>
+  <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+</form>
+{% endblock %}

@@ -1,0 +1,8 @@
+body {
+    padding-top: 5rem;
+}
+
+.image_grid{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+}
